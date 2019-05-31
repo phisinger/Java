@@ -27,18 +27,30 @@ public class rechteck {
        rechteck recht2 = new rechteck(3, 8);
    }
 
+    /**
+     * @return the breite
+     */
     public int getBreite() {
         return breite;
     }
 
-    public void setBreite(int breite) {
-        this.breite = breite;
-    }
-
+    /**
+     * @return the laenge
+     */
     public int getLaenge() {
         return laenge;
     }
 
+    /**
+     * @param breite the breite to set
+     */
+    public void setBreite(int breite) {
+        this.breite = breite;
+    }
+
+    /**
+     * @param laenge the laenge to set
+     */
     public void setLaenge(int laenge) {
         this.laenge = laenge;
     }
