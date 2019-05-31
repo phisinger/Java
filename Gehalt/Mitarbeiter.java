@@ -12,6 +12,8 @@ public abstract class Mitarbeiter {
     String adresse;
     Date geburtstag;
 
+    int umsatz = 500000;
+
     public abstract int gehaltBerechnen();
 
     public static void main(String[] args) {
@@ -48,6 +50,14 @@ public abstract class Mitarbeiter {
 
     public void setGeburtstag(Date geburtstag) {
         this.geburtstag = geburtstag;
+    }
+
+    public int getUmsatz() {
+        return umsatz;
+    }
+
+    public void setUmsatz(int umsatz) {
+        this.umsatz = umsatz;
     }
     
     
