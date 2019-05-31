@@ -18,7 +18,7 @@ public class rechteck {
         laenge = b;
         System.out.println(breite);
         System.out.println(laenge);
-       System.out.println("--");
+        System.out.println("--");
    }
 
 
