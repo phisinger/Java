@@ -8,7 +8,7 @@ public class Arbeiter extends Mitarbeiter{
     int stundenlohn;
     int arbeitszeit;
 
-    public void Arbeiter(int stundenlohn, int arbeitszeit) {
+    public Arbeiter(int stundenlohn, int arbeitszeit) {
         this.stundenlohn = stundenlohn;
         this.arbeitszeit = arbeitszeit;
     }

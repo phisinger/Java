@@ -12,13 +12,11 @@ public abstract class Mitarbeiter {
     String adresse;
     Date geburtstag;
 
+
     int umsatz = 500000;
 
     public abstract int gehaltBerechnen();
 
-    public static void main(String[] args) {
-        
-    }
 
     public int getPersonalnummer() {
         return personalnummer;

@@ -8,9 +8,9 @@ public class Angestellter extends Mitarbeiter {
     int grundgehalt;
     int zulagen;
 
-    public void Angestellter(int g, int z){
-        this.grundgehalt = g;
-        this.zulagen = z;
+    public Angestellter(int grundgehalt, int zulage){
+        this.grundgehalt = grundgehalt;
+        this.zulagen = zulage;
     }
 
     public int gehaltBerechnen(){
