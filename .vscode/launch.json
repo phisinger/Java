@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - exceptions",
+            "request": "launch",
+            "mainClass": "exceptions"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - strings",
+            "request": "launch",
+            "mainClass": "strings"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GehaltBerechnen",
             "request": "launch",
             "mainClass": "Java.Gehalt.GehaltBerechnen"
