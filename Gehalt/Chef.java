@@ -3,20 +3,17 @@ package Java.Gehalt;
 /**
  * Chef
  */
-public class Chef extends Mitarbeiter {
+public class Chef extends Manager {
 
-    int provision;
-    int grundgehalt;
     int chefZulage;
 
     public Chef(int grundgehalt, int provision, int chefZulage){
-        this.grundgehalt = grundgehalt;
-        this.provision = provision;
+        super(grundgehalt, provision);
         this.chefZulage = chefZulage;
     }
 
     public int gehaltBerechnen(){
-        return (grundgehalt + (provision/100) * getUmsatz() + chefZulage);
+        return (super.gehaltBerechnen() + chefZulage);
     }
 
     public int getProvision() {
