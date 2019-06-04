@@ -1,5 +1,5 @@
-import com.sun.org.apache.bcel.internal.classfile.InnerClass;
-import com.sun.org.apache.xalan.internal.xsltc.TransletException;
+// import com.sun.org.apache.bcel.internal.classfile.InnerClass;
+// import com.sun.org.apache.xalan.internal.xsltc.TransletException;
 
 /**
  * exceptions
@@ -8,7 +8,7 @@ public class exceptions {
     /**
      * Innerexceptions
      */
-    public class Innerexceptions extends Exception {
+    public class Innerexceptions extends RuntimeException {
 
         private static final long serialVersionUID = 1L;
         
@@ -35,8 +35,8 @@ public class exceptions {
     }
 
 
-    private static void exceptions1() throws NullPointerException, ArithmeticException {
-        throw new NullPointerException();
+    private static void exceptions1() throws ArithmeticException {
+        throw new ArithmeticException();
     }
 
     private static void exceptions2() throws Innerexceptions {
