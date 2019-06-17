@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - coll_uebung",
+            "request": "launch",
+            "mainClass": "coll_uebung",
+            "projectName": "Java_319f6130"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - stream",
+            "request": "launch",
+            "mainClass": "stream",
+            "projectName": "Java_319f6130"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - exceptions",
             "request": "launch",
             "mainClass": "exceptions"

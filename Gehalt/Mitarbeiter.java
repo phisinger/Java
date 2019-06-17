@@ -1,4 +1,4 @@
-package Java.Gehalt;
+package Gehalt;
 
 import java.util.Date;
 

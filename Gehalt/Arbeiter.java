@@ -1,4 +1,4 @@
-package Java.Gehalt;
+package Gehalt;
 
 /**
  * Arbeiter
